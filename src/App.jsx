@@ -16,6 +16,7 @@ const [color,setColor]=useState("#2341")
     <button onClick={()=>setColor("skyblue")} className="outline-none px-4 py-1 rounded-full text-white shadow-lg"style={{backgroundColor:"skyblue"}}>SKYBLUE</button> 
     <button onClick={()=>setColor("purple")} className="outline-none px-4 py-1 rounded-full text-white shadow-lg"style={{backgroundColor:"purple"}}>PURPLE</button> 
     <button onClick={()=>setColor("brown")} className="outline-none px-4 py-1 rounded-full text-white shadow-lg"style={{backgroundColor:"brown"}}>BROWN</button> 
+    <button onClick={()=>setColor("black")} className="outline-none px-4 py-1 rounded-full text-white shadow-lg"style={{backgroundColor:"black"}}>Black</button> 
 
   </div>
 
